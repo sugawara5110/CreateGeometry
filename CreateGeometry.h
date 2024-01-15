@@ -18,12 +18,12 @@ namespace CreateGeometry {
 	};
 
 	ver* createCube(int numArr, CoordTf::VECTOR3* PosArr, CoordTf::VECTOR3* sizeArr, bool Reverse);
-	unsigned int* createCubeIndex(int numArr);
+	unsigned int* createCubeIndex(int numArr, bool Reverse);
 
 	ver* createSphere(int xMax, int yMax, int numArr,
 		CoordTf::VECTOR3* PosArr, CoordTf::VECTOR3* sizeArr, bool Reverse);
 
-	unsigned int* createSphereIndex(int xMax, int yMax, int numArr);
+	unsigned int* createSphereIndex(int xMax, int yMax, int numArr, bool Reverse);
 }
 
 #endif
